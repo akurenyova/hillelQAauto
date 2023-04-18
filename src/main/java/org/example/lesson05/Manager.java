@@ -14,8 +14,9 @@ public class Manager extends Employee {
         this.lastName = lastName;
     }
 
-    public void setTeamMembers(Employee... members) {
-        this.team = members;
+    public void setTeamMembers(Employee... team) {
+        this.team = new Employee[team.length];
+        System.arraycopy(team, 0, this.team, 0, team.length);
     }
 
     @Override
