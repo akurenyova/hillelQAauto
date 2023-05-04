@@ -1,8 +1,6 @@
 package ua.ithillel.course01.lesson08;
 
-import org.example.lesson08.animals.*;
 import ua.ithillel.course01.lesson08.animals.*;
-import ua.ithillel.lesson08.animals.*;
 import ua.ithillel.course01.lesson08.interfaces.Pet;
 import ua.ithillel.course01.lesson08.interfaces.WildAnimal;
 
