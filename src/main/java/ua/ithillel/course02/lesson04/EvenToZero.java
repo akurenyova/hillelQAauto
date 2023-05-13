@@ -8,9 +8,10 @@ public class EvenToZero {
 
     public static void main(String[] args) {
         System.out.println("\n*** Lesson 4 *** Task 2 ***\n");
-        int length = getValidLengthFromScanner();
-        int[] randomArray = getRandomArray(length);
+
+        int[] randomArray = getRandomArray(getValidLengthFromScanner());
         System.out.println("Random array: " + Arrays.toString(randomArray));
+
         int [] arrayWithoutEvens = changeEvenToZeroArray(randomArray);
         System.out.println("Array without even numbers: " + Arrays.toString(arrayWithoutEvens));
     }

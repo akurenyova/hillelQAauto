@@ -8,8 +8,8 @@ import static ua.ithillel.course02.lesson04.EvenToZero.getValidLengthFromScanner
 public class MinMaxNumberInArray {
     public static void main(String[] args) {
         System.out.println("\n*** Lesson 4 *** Task 4 ***\n");
-        int length = getValidLengthFromScanner();
-        int[] randomArray = getRandomArray(length);
+
+        int[] randomArray = getRandomArray(getValidLengthFromScanner());
         System.out.println("Random array: " + Arrays.toString(randomArray));
 
         System.out.println("Min value in array: " + minValueInArray(randomArray));
