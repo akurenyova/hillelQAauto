@@ -9,6 +9,8 @@ public class User {
     public boolean isActive;
     public double amountSpentMoney;
 
+    public double amountDiscount;
+
     public User() {
         this.userName = "anonymous";
     }
