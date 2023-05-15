@@ -78,6 +78,10 @@ public class User {
         this.amountSpentMoney = amountSpentMoney;
     }
 
+    public void addDiscount(int percent) {
+        amountSpentMoney *= 1 - (double) percent / 100;
+    }
+
     public void makePurchase(double purchasePrice) {
         System.out.println("Purchase price " + purchasePrice);
         amountSpentMoney += purchasePrice;

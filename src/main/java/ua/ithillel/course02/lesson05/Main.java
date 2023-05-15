@@ -17,11 +17,13 @@ public class Main {
         secondUser.makePurchase(5.5);
         secondUser.makePurchase(15.5);
         secondUser.makePurchase(25.5);
+        secondUser.addDiscount(10);
 
         System.out.println("\n* Purchases of " + thirdUser.userName);
         thirdUser.makePurchase(100.25);
         thirdUser.makePurchase(200.25);
         thirdUser.makePurchase(300.25);
+        thirdUser.addDiscount(20);
 
         System.out.println();
 
