@@ -14,13 +14,13 @@ public class BaseCalculator {
         return number1 * number2;
     }
 
-    public static double div(double number1, double number2) {
-        if (number2 == 0) {
-            System.out.println("Division by zero is not allowed");
-            return -1;
-        } else {
-            return number1 / number2;
+    public static int div(int number1, int number2) {
+        int result = -1;
+        try {
+            result = number1 / number2;
+        } catch (ArithmeticException e) {
+            System.out.println("Division by zero is not allowed " + e.getMessage());
         }
+        return result;
     }
-
 }

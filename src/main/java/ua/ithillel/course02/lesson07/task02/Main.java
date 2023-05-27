@@ -6,8 +6,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        double firstValue = 15.5;
-        double secondValue = 10;
+        int firstValue = 15;
+        int secondValue = 0;
 
         System.out.println("\n*** Lesson 7 *** Task 2 ***\n");
 
