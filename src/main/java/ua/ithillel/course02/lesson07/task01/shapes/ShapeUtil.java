@@ -1,5 +1,7 @@
 package ua.ithillel.course02.lesson07.task01.shapes;
 
+import ua.ithillel.course02.lesson10.Color;
+
 import java.util.Arrays;
 
 public class ShapeUtil {
@@ -22,7 +24,7 @@ public class ShapeUtil {
         System.out.println();
     }
 
-    public static void paintShapes(Shape[] shapes, String color) {
+    public static void paintShapes(Shape[] shapes, Color color) {
         System.out.println("* Figures are painted: ");
         for (var shape : shapes) {
             System.out.print(shape.getClass().getSimpleName());

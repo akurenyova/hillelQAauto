@@ -1,6 +1,7 @@
 package ua.ithillel.course02.lesson07.task01;
 
 import ua.ithillel.course02.lesson07.task01.shapes.*;
+import ua.ithillel.course02.lesson10.Color;
 
 
 public class Main {
@@ -8,7 +9,6 @@ public class Main {
 
         System.out.println("\n*** Lesson 8 *** Task 3 ***\n");
 
-        String color = "yellow";
         Point pointA = new Point(1, 5);
         Point pointB = new Point(1, 1);
         Point pointC = new Point(5, 1);
@@ -22,7 +22,7 @@ public class Main {
 
         ShapeUtil.printAreaOfShapes(shapes);
         ShapeUtil.printPerimeterOfShapes(shapes);
-        ShapeUtil.paintShapes(shapes, color);
+        ShapeUtil.paintShapes(shapes, Color.YELLOW);
         ShapeUtil.printShapesSortedByArea(shapes);
         ShapeUtil.printIsShapesCircleFitable(shapes);
     }
