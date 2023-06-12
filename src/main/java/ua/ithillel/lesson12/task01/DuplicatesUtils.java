@@ -1,4 +1,4 @@
-package ua.ithillel.lesson12;
+package ua.ithillel.lesson12.task01;
 
 import java.util.ArrayList;
 import java.util.List;

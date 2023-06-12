@@ -1,8 +1,8 @@
-package ua.ithillel.lesson12;
+package ua.ithillel.lesson12.task01;
 
 import java.util.List;
 
-import static ua.ithillel.lesson12.DuplicatesUtils.*;
+import static ua.ithillel.lesson12.task01.DuplicatesUtils.*;
 
 public class Main {
 
