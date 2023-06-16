@@ -1,8 +1,8 @@
-package ua.ithillel.lesson12.task03;
+package ua.ithillel.course02.lesson12.task03;
 
 import java.util.List;
 
-import static ua.ithillel.lesson12.task03.ListOrdering.*;
+import static ua.ithillel.course02.lesson12.task03.ListOrdering.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,8 +13,10 @@ public class Main {
         System.out.println("List: " + list);
 
         System.out.println("Point of Ordering: " + pointOfOrdering);
-        
+
         List<Integer> listResult = getList(list, pointOfOrdering);
         System.out.println("Result List: " + listResult);
+
+
     }
 }

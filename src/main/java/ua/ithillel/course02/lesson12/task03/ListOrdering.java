@@ -1,8 +1,9 @@
-package ua.ithillel.lesson12.task03;
+package ua.ithillel.course02.lesson12.task03;
 
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
+
 
 public class ListOrdering {
 
